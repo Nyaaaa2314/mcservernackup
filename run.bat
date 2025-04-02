@@ -1,11 +1,14 @@
 @echo off
-REM Forge requires a configured set of both JVM and program arguments.
-REM Add custom JVM arguments to the user_jvm_args.txt
-REM Add custom program arguments {such as nogui} to this file in the next line before the %* or
-REM  pass them to this script directly
+setlocal enabledelayedexpansion
+
+:: Get the current date and time
+for /f "tokens=2 delims==" %%D in ('wmic os get localdatetime /value ^| find "="') do set datetime=%%D
+
+:: Format the date (YYYY-MM-DD)
+set commitDate=%datetime:~0,4%-%datetime:~4,2%-%datetime:~6,2%
 
 git add .
-git commit -m "Backup: `date`"
+git commit -m "Backup: %commitDate%"
 git push origin main
 
 java @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.20.1-47.3.0/win_args.txt %*
