@@ -377,6 +377,7 @@
       "minecraft:lush_caves": "2025-03-30 18:03:23 -0500",
       "minecraft:deep_cold_ocean": "2024-06-25 23:31:02 -0500",
       "minecraft:frozen_ocean": "2024-06-25 23:50:09 -0500",
+      "minecraft:desert": "2025-04-06 16:17:24 -0500",
       "minecraft:ocean": "2024-06-19 00:45:22 -0500",
       "minecraft:snowy_beach": "2024-06-25 23:50:06 -0500",
       "minecraft:windswept_savanna": "2024-06-19 01:14:45 -0500",
@@ -995,6 +996,7 @@
   },
   "spartanweaponry:collect_heads": {
     "criteria": {
+      "zombie_head": "2025-04-06 14:51:32 -0500",
       "skeleton_skull": "2024-06-23 14:04:43 -0500"
     },
     "done": false
@@ -1278,6 +1280,24 @@
   "minecraft:husbandry/fishy_business": {
     "criteria": {
       "pufferfish": "2025-04-05 00:26:08 -0500"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/jungle": {
+    "criteria": {
+      "has_planks": "2025-04-06 16:00:21 -0500"
+    },
+    "done": true
+  },
+  "zeldamod:get_hylian_shield": {
+    "criteria": {
+      "mask_block": "2025-04-06 16:11:05 -0500"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_small_blimp": {
+    "criteria": {
+      "location0": "2025-04-06 16:17:56 -0500"
     },
     "done": true
   },
