@@ -382,6 +382,7 @@
       "minecraft:ocean": "2024-06-19 00:45:22 -0500",
       "minecraft:snowy_beach": "2024-06-25 23:50:06 -0500",
       "minecraft:windswept_savanna": "2024-06-19 01:14:45 -0500",
+      "minecraft:warm_ocean": "2025-04-13 20:41:02 -0500",
       "minecraft:deep_lukewarm_ocean": "2024-07-07 22:30:30 -0500",
       "minecraft:flower_forest": "2024-06-19 00:55:30 -0500",
       "minecraft:old_growth_birch_forest": "2024-06-20 23:19:09 -0500",
@@ -415,6 +416,9 @@
       "mediterranean_forest": "2024-06-20 23:22:27 -0500",
       "coniferous_forest": "2024-06-19 22:26:11 -0500",
       "spider_nest": "2024-06-20 23:40:34 -0500",
+      "dryland": "2025-04-13 21:22:04 -0500",
+      "wasteland": "2025-04-13 21:01:28 -0500",
+      "lush_desert": "2025-04-13 21:03:34 -0500",
       "redwood_forest": "2024-06-20 23:21:45 -0500",
       "visceral_heap": "2025-04-03 21:47:17 -0500",
       "seasonal_orchard": "2024-06-19 22:24:15 -0500",
@@ -1304,6 +1308,31 @@
   "dungeons_arise:find_small_blimp": {
     "criteria": {
       "location0": "2025-04-06 16:17:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_sniffer_egg": {
+    "criteria": {
+      "obtain_sniffer_egg": "2025-04-13 21:34:16 -0500"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/emu": {
+    "criteria": {
+      "killed_by": "2025-04-13 21:07:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2025-04-13 21:19:02 -0500",
+      "ocean_ruin_warm": "2025-04-13 21:18:04 -0500"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/guster": {
+    "criteria": {
+      "killed": "2025-04-13 21:03:41 -0500"
     },
     "done": true
   },
