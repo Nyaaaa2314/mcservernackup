@@ -711,6 +711,7 @@
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
       "tomato": "2024-06-19 21:35:51 -0500",
+      "sugar_cane": "2025-04-20 17:25:15 -0500",
       "nether_wart": "2024-06-23 15:50:46 -0500",
       "wheat": "2024-06-19 21:30:14 -0500",
       "carrot": "2024-07-08 21:32:25 -0500"
@@ -1311,9 +1312,9 @@
     },
     "done": true
   },
-  "minecraft:husbandry/obtain_sniffer_egg": {
+  "alexsmobs:alexsmobs/guster": {
     "criteria": {
-      "obtain_sniffer_egg": "2025-04-13 21:34:16 -0500"
+      "killed": "2025-04-13 21:03:41 -0500"
     },
     "done": true
   },
@@ -1330,9 +1331,9 @@
     },
     "done": true
   },
-  "alexsmobs:alexsmobs/guster": {
+  "minecraft:husbandry/obtain_sniffer_egg": {
     "criteria": {
-      "killed": "2025-04-13 21:03:41 -0500"
+      "obtain_sniffer_egg": "2025-04-13 21:34:16 -0500"
     },
     "done": true
   },

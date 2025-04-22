@@ -1187,15 +1187,10 @@
     },
     "done": true
   },
-  "minecraft:husbandry/obtain_sniffer_egg": {
+  "minecraft:adventure/salvage_sherd": {
     "criteria": {
-      "obtain_sniffer_egg": "2025-04-13 21:30:40 -0500"
-    },
-    "done": true
-  },
-  "zeldamod:get_kokiri_sword": {
-    "criteria": {
-      "kokiritunic": "2025-04-13 21:01:53 -0500"
+      "has_sherd": "2025-04-13 20:30:16 -0500",
+      "ocean_ruin_cold": "2025-04-13 20:30:11 -0500"
     },
     "done": true
   },
@@ -1205,10 +1200,21 @@
     },
     "done": true
   },
-  "minecraft:adventure/salvage_sherd": {
+  "zeldamod:get_kokiri_sword": {
     "criteria": {
-      "has_sherd": "2025-04-13 20:30:16 -0500",
-      "ocean_ruin_cold": "2025-04-13 20:30:11 -0500"
+      "kokiritunic": "2025-04-13 21:01:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_sniffer_egg": {
+    "criteria": {
+      "obtain_sniffer_egg": "2025-04-13 21:30:40 -0500"
+    },
+    "done": true
+  },
+  "quark:get_forgotten_hat": {
+    "criteria": {
+      "get_forgotten_hat": "2025-04-20 17:30:47 -0500"
     },
     "done": true
   },
